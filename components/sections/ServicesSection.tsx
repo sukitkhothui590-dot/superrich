@@ -28,7 +28,7 @@ export default function ServicesSection() {
             <p className="text-lg lg:text-xl font-semibold text-surface-600">
               ขั้นตอนการรับบริการ
             </p>
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#F26522]">
+            <h2 className="text-4xl lg:text-5xl font-bold text-[#0F766E]">
               All Services
             </h2>
           </div>
@@ -39,7 +39,7 @@ export default function ServicesSection() {
           {/* Left arrow */}
           <button
             type="button"
-            className="hidden lg:flex absolute -left-6 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white text-[#F26522] items-center justify-center cursor-pointer hover:bg-surface-50 z-10"
+            className="hidden lg:flex absolute -left-6 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white text-[#0F766E] items-center justify-center cursor-pointer hover:bg-surface-50 z-10"
             aria-label="บริการก่อนหน้า"
             onClick={() => scrollByCards("left")}
           >
@@ -63,7 +63,7 @@ export default function ServicesSection() {
           {/* Right arrow */}
           <button
             type="button"
-            className="hidden lg:flex absolute -right-6 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white text-[#F26522] items-center justify-center cursor-pointer hover:bg-surface-50 z-10"
+            className="hidden lg:flex absolute -right-6 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white text-[#0F766E] items-center justify-center cursor-pointer hover:bg-surface-50 z-10"
             aria-label="บริการถัดไป"
             onClick={() => scrollByCards("right")}
           >
@@ -99,7 +99,7 @@ export default function ServicesSection() {
               </div>
 
               {/* Orange content area */}
-              <div className="bg-[#F26522] text-white px-6 py-6 flex flex-col h-[230px]">
+              <div className="bg-[#0F766E] text-white px-6 py-6 flex flex-col h-[230px]">
                 <div className="flex-1">
                   <h3 className="text-lg font-bold leading-snug mb-1.5">
                     {service.title}
@@ -127,7 +127,7 @@ export default function ServicesSection() {
           ))}
 
           {/* Coming soon card */}
-          <div className="flex-shrink-0 w-[270px] sm:w-[290px] lg:w-[310px] rounded-2xl bg-gradient-to-br from-[#F58A2A] to-[#F26522] flex items-center justify-center">
+          <div className="flex-shrink-0 w-[270px] sm:w-[290px] lg:w-[310px] rounded-2xl bg-gradient-to-br from-[#0F766E] to-[#0F766E] flex items-center justify-center">
             <span className="text-white text-lg sm:text-xl font-semibold">
               Coming Soon
             </span>

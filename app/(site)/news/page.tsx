@@ -3,7 +3,7 @@ import { getNewsSync } from "@/lib/mock/news";
 
 function CategoryBadge({ category }: { category: string }) {
   return (
-    <span className="inline-block text-[11px] font-bold px-2.5 py-0.5 rounded-md bg-[#F26522] text-white">
+    <span className="inline-block text-[11px] font-bold px-2.5 py-0.5 rounded-md bg-[#0F766E] text-white">
       {category}
     </span>
   );
@@ -20,7 +20,7 @@ export default function NewsPage() {
   return (
     <>
       {/* Orange hero with background image placeholder */}
-      <section className="bg-gradient-to-br from-[#F58A2A] to-[#F26522]">
+      <section className="bg-gradient-to-br from-[#0F766E] to-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-10">
           <div className="relative w-full" style={{ aspectRatio: "1440/400" }}>
             {/* Background size placeholder */}
@@ -82,7 +82,7 @@ export default function NewsPage() {
                 <div className="px-4 pb-4 sm:px-5 sm:pb-5 bg-white">
                   <Link
                     href="#"
-                    className="w-full inline-flex items-center justify-center rounded-lg bg-[#F26522] text-white text-xs sm:text-sm font-semibold py-2.5 hover:bg-[#D9551A] transition-colors"
+                    className="w-full inline-flex items-center justify-center rounded-lg bg-[#0F766E] text-white text-xs sm:text-sm font-semibold py-2.5 hover:bg-[#0B5A53] transition-colors"
                   >
                     ดูเพิ่มเติม
                   </Link>
@@ -96,7 +96,7 @@ export default function NewsPage() {
             {/* Prev button (left) */}
             <button
               type="button"
-              className="inline-flex items-center gap-2 rounded-full border border-[#F26522] text-[#F26522] bg-white px-4 py-1.5 shadow-sm cursor-default"
+              className="inline-flex items-center gap-2 rounded-full border border-[#0F766E] text-[#0F766E] bg-white px-4 py-1.5 shadow-sm cursor-default"
               aria-disabled="true"
             >
               <span className="text-xs">←</span>
@@ -129,7 +129,7 @@ export default function NewsPage() {
                     className={[
                       "w-7 h-7 flex items-center justify-center rounded-full text-sm font-medium",
                       isActive
-                        ? "bg-[#FEEFE4] text-[#F26522]"
+                        ? "bg-[#FEEFE4] text-[#0F766E]"
                         : "text-surface-500 hover:bg-surface-50",
                     ].join(" ")}
                     aria-current={isActive ? "page" : undefined}
@@ -155,7 +155,7 @@ export default function NewsPage() {
             {/* Next button (right) */}
             <button
               type="button"
-              className="inline-flex items-center gap-2 rounded-full border border-[#F26522] text-[#F26522] bg-white px-4 py-1.5 shadow-sm"
+              className="inline-flex items-center gap-2 rounded-full border border-[#0F766E] text-[#0F766E] bg-white px-4 py-1.5 shadow-sm"
             >
               <span className="text-sm">ถัดไป</span>
               <span className="text-xs">→</span>

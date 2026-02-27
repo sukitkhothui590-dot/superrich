@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero - 1440/560 */}
-      <section className="relative z-0 bg-gradient-to-br from-[#F58A2A] to-[#F26522]">
+      <section className="relative z-0 bg-gradient-to-br from-[#0F766E] to-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-10">
           <div className="relative w-full" style={{ aspectRatio: "1440/560" }}>
             {/* Background size placeholder */}
@@ -45,7 +45,7 @@ export default function AboutPage() {
 
           {/* Right content */}
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-[#F26522]">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0F766E]">
               ประวัติการก่อตั้งและเป้าหมาย
             </h2>
             <p className="mt-3 text-sm sm:text-base text-surface-700 leading-relaxed">
@@ -60,7 +60,7 @@ export default function AboutPage() {
 
             <div className="mt-6 inline-flex items-center gap-4 rounded-2xl bg-[#FFF3E8] px-5 py-4">
               <div className="flex flex-col">
-                <span className="text-4xl sm:text-5xl font-extrabold text-[#F26522] leading-none">
+                <span className="text-4xl sm:text-5xl font-extrabold text-[#0F766E] leading-none">
                   60+
                 </span>
                 <span className="mt-1 text-sm font-semibold text-surface-700">
@@ -83,7 +83,7 @@ export default function AboutPage() {
             <p className="text-lg sm:text-xl font-semibold text-surface-700">
               ความแข็งแกร่งของ
             </p>
-            <p className="text-xl sm:text-2xl font-bold text-[#F26522]">
+            <p className="text-xl sm:text-2xl font-bold text-[#0F766E]">
               ซุปเปอร์ริช (1965) สีส้ม
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
             {/* Card 1 - 60+ ปี */}
             <div className="rounded-2xl border border-[#F0E0D0] bg-white overflow-hidden shadow-sm">
-              <div className="bg-gradient-to-br from-[#F58A2A] to-[#F26522] px-5 py-7 text-center text-white">
+              <div className="bg-gradient-to-br from-[#0F766E] to-[#0F766E] px-5 py-7 text-center text-white">
                 <p className="text-sm font-semibold tracking-wide">ประสบการณ์กว่า</p>
                 <p className="mt-1 text-5xl font-extrabold leading-none">
                   60<span className="text-3xl align-top">+</span>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                 <p className="mt-1 text-base font-semibold">ปี</p>
               </div>
               <div className="px-5 py-5 text-center">
-                <p className="text-sm font-bold text-[#F26522] mb-2">ตั้งเดิม</p>
+                <p className="text-sm font-bold text-[#0F766E] mb-2">ตั้งเดิม</p>
                 <p className="text-xs text-surface-500 leading-relaxed">
                   ด้วยประสบการณ์กว่า 60 ปี
                   ซุปเปอร์ริชได้กลายเป็นผู้นำด้านการแลกเปลี่ยนเงินตราในประเทศไทยที่ได้รับความไว้วางใจจากลูกค้าตลอดมา
@@ -109,7 +109,7 @@ export default function AboutPage() {
 
             {/* Card 2 - 40+ สาขา */}
             <div className="rounded-2xl border border-[#F0E0D0] bg-white overflow-hidden shadow-sm">
-              <div className="bg-gradient-to-br from-[#F58A2A] to-[#F26522] px-5 py-7 text-center text-white">
+              <div className="bg-gradient-to-br from-[#0F766E] to-[#0F766E] px-5 py-7 text-center text-white">
                 <p className="text-sm font-semibold tracking-wide">สาขามากกว่า</p>
                 <p className="mt-1 text-5xl font-extrabold leading-none">
                   40<span className="text-3xl align-top">+</span>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                 <p className="mt-1 text-base font-semibold">สาขา</p>
               </div>
               <div className="px-5 py-5 text-center">
-                <p className="text-sm font-bold text-[#F26522] mb-2">ครอบคลุม</p>
+                <p className="text-sm font-bold text-[#0F766E] mb-2">ครอบคลุม</p>
                 <p className="text-xs text-surface-500 leading-relaxed">
                   มีสาขามากกว่า 40 สาขา ในพื้นที่หลักกรุงเทพฯ
                   เพื่อลูกค้าเข้าถึงบริการของเราได้อย่างสะดวกและรวดเร็ว
@@ -127,16 +127,16 @@ export default function AboutPage() {
 
             {/* Card 3 - บริการด้วยใจ (SPR logo) */}
             <div className="rounded-2xl border border-[#F0E0D0] bg-white overflow-hidden shadow-sm">
-              <div className="bg-gradient-to-br from-[#F58A2A] to-[#F26522] px-5 py-7 text-center text-white flex flex-col items-center justify-center">
+              <div className="bg-gradient-to-br from-[#0F766E] to-[#0F766E] px-5 py-7 text-center text-white flex flex-col items-center justify-center">
                 <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-2">
-                  <span className="text-[#F26522] font-black text-sm">SPR</span>
+                  <span className="text-[#0F766E] font-black text-sm">SPR</span>
                 </div>
                 <p className="text-xs font-medium tracking-wide">SuperRich</p>
                 <p className="text-[10px] text-white/80">Currency Exchange</p>
                 <p className="mt-1.5 text-lg font-extrabold">บริการด้วยใจ</p>
               </div>
               <div className="px-5 py-5 text-center">
-                <p className="text-sm font-bold text-[#F26522] mb-2">บริการเด่น</p>
+                <p className="text-sm font-bold text-[#0F766E] mb-2">บริการเด่น</p>
                 <p className="text-xs text-surface-500 leading-relaxed">
                   ซุปเปอร์ริชพร้อมบริการและให้คำแนะนำด้วยความจริงใจ
                   เพื่อให้ลูกค้าได้รับประสบการณ์ที่ดีที่สุดทุกครั้งที่มาใช้บริการ
@@ -146,7 +146,7 @@ export default function AboutPage() {
 
             {/* Card 4 - 380+ คน */}
             <div className="rounded-2xl border border-[#F0E0D0] bg-white overflow-hidden shadow-sm">
-              <div className="bg-gradient-to-br from-[#F58A2A] to-[#F26522] px-5 py-7 text-center text-white">
+              <div className="bg-gradient-to-br from-[#0F766E] to-[#0F766E] px-5 py-7 text-center text-white">
                 <p className="text-sm font-semibold tracking-wide">พนักงานมากกว่า</p>
                 <p className="mt-1 text-5xl font-extrabold leading-none">
                   380<span className="text-3xl align-top">+</span>
@@ -154,7 +154,7 @@ export default function AboutPage() {
                 <p className="mt-1 text-base font-semibold">คน</p>
               </div>
               <div className="px-5 py-5 text-center">
-                <p className="text-sm font-bold text-[#F26522] mb-2">มืออาชีพ</p>
+                <p className="text-sm font-bold text-[#0F766E] mb-2">มืออาชีพ</p>
                 <p className="text-xs text-surface-500 leading-relaxed">
                   พนักงานมากกว่า 300 คน ที่ต้องผ่านการฝึกอบรมมีความเชี่ยวชาญด้านการแลกเปลี่ยนเงินตราต่างประเทศ
                   ทำให้มั่นใจในทุกการทำธุรกรรม
@@ -166,7 +166,7 @@ export default function AboutPage() {
       </section>
 
       {/* Section 4: Vision of chairman */}
-      <section className="bg-gradient-to-r from-[#F58A2A] to-[#F26522] py-12 lg:py-16">
+      <section className="bg-gradient-to-r from-[#0F766E] to-[#0F766E] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] gap-10 lg:gap-14 items-center">
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
@@ -206,7 +206,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           <a
             href="/exchange-rate"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#F58A2A] to-[#F26522] px-6 py-8 sm:px-8 sm:py-9 text-white shadow-[0_12px_30px_rgba(15,23,42,0.18)]"
+            className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0F766E] to-[#0F766E] px-6 py-8 sm:px-8 sm:py-9 text-white shadow-[0_12px_30px_rgba(15,23,42,0.18)]"
           >
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-white/80">
               SuperRich
@@ -233,7 +233,7 @@ export default function AboutPage() {
 
           <a
             href="/services"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#FFA63A] to-[#F26522] px-6 py-8 sm:px-8 sm:py-9 text-white shadow-[0_12px_30px_rgba(15,23,42,0.18)]"
+            className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0F766E] to-[#0F766E] px-6 py-8 sm:px-8 sm:py-9 text-white shadow-[0_12px_30px_rgba(15,23,42,0.18)]"
           >
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-white/80">
               SuperRich

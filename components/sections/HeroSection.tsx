@@ -62,7 +62,7 @@ function TinyArrowRight({ className = "" }: { className?: string }) {
     >
       <path
         d="M0.898438 4.98568L10.3041 4.98568M10.3041 4.98568L6.88387 8.40592M10.3041 4.98568L6.88387 1.56543M0.898438 13.5363L14.5794 13.5363M14.5794 13.5363L11.1592 16.9565M14.5794 13.5363L11.1592 10.116"
-        stroke="#F26522"
+        stroke="#0F766E"
         strokeWidth="1.78935"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -236,8 +236,8 @@ export default function HeroSection() {
                 className={[
                   "px-6 py-2 font-medium transition-colors cursor-pointer",
                   activeTab === "rate"
-                    ? "bg-[#F26522] text-white"
-                    : "bg-[#FFE6D7] text-[#F26522]",
+                    ? "bg-[#0F766E] text-white"
+                    : "bg-[#FFE6D7] text-[#0F766E]",
                 ].join(" ")}
               >
                 อัตราแลกเปลี่ยน
@@ -248,7 +248,7 @@ export default function HeroSection() {
                 className={[
                   "px-6 py-2 font-medium transition-colors cursor-pointer",
                   activeTab === "calc"
-                    ? "bg-[#F26522] text-white"
+                    ? "bg-[#0F766E] text-white"
                     : "bg-[#F4F5F7] text-surface-500",
                 ].join(" ")}
               >
@@ -291,7 +291,7 @@ export default function HeroSection() {
 
                   {/* Rates table */}
                   <div className="mt-5 rounded-2xl border border-[#EFF0F2] overflow-hidden bg-surface-0">
-                    <div className="flex items-center px-4 py-2.5 text-[13px] font-semibold text-white bg-[#F26522]">
+                    <div className="flex items-center px-4 py-2.5 text-[13px] font-semibold text-white bg-[#0F766E]">
                       <span className="flex-1">ชื่อสกุลเงิน</span>
                       <span className="w-10" />
                       <span className="w-20 text-right">SPR ซื้อ</span>
@@ -334,10 +334,10 @@ export default function HeroSection() {
                           >
                             <PlusMinusIcon className="w-4 h-4" />
                           </button>
-                          <div className="w-20 text-right text-sm font-semibold text-[#F26522]">
+                          <div className="w-20 text-right text-sm font-semibold text-[#0F766E]">
                             {rate.buy.toFixed(2)}
                           </div>
-                          <div className="w-20 text-right text-sm font-semibold text-[#F26522]">
+                          <div className="w-20 text-right text-sm font-semibold text-[#0F766E]">
                             {rate.sell.toFixed(2)}
                           </div>
                         </div>
@@ -365,7 +365,7 @@ export default function HeroSection() {
                       className={[
                         "px-4 py-1.5 rounded-full font-medium transition-colors cursor-pointer",
                         calcMode === "toTHB"
-                          ? "bg-[#F26522] text-white"
+                          ? "bg-[#0F766E] text-white"
                           : "text-surface-600",
                       ].join(" ")}
                     >
@@ -377,7 +377,7 @@ export default function HeroSection() {
                       className={[
                         "px-4 py-1.5 rounded-full font-medium transition-colors cursor-pointer",
                         calcMode === "fromTHB"
-                          ? "bg-[#F26522] text-white"
+                          ? "bg-[#0F766E] text-white"
                           : "text-surface-600",
                       ].join(" ")}
                     >
@@ -396,7 +396,7 @@ export default function HeroSection() {
                             setFromOpen((v) => !v);
                             setToOpen(false);
                           }}
-                          className="w-full flex items-center justify-between rounded-xl border border-[#DDE0E5] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#F26522] transition-colors"
+                          className="w-full flex items-center justify-between rounded-xl border border-[#DDE0E5] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#0F766E] transition-colors"
                         >
                           <span className="flex items-center gap-2.5">
                             <CurrencyFlag code={fromCode} />
@@ -450,7 +450,7 @@ export default function HeroSection() {
                       </div>
 
                       <div className="flex items-center justify-center">
-                        <div className="w-9 h-9 rounded-full bg-[#F26522] text-white flex items-center justify-center shadow-md">
+                        <div className="w-9 h-9 rounded-full bg-[#0F766E] text-white flex items-center justify-center shadow-md">
                           <span className="text-lg leading-none">→</span>
                         </div>
                       </div>
@@ -462,7 +462,7 @@ export default function HeroSection() {
                             setToOpen((v) => !v);
                             setFromOpen(false);
                           }}
-                          className="w-full flex items-center justify-between rounded-xl border border-[#DDE0E5] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#F26522] transition-colors"
+                          className="w-full flex items-center justify-between rounded-xl border border-[#DDE0E5] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#0F766E] transition-colors"
                         >
                           <span className="flex items-center gap-2.5">
                             <CurrencyFlag code={toCode} />
@@ -524,7 +524,7 @@ export default function HeroSection() {
                         </label>
                         <input
                           type="number"
-                          className="w-full rounded-xl border border-[#DDE0E5] bg-white px-4 py-2.5 text-[14px] text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/70 focus:border-[#F26522]"
+                          className="w-full rounded-xl border border-[#DDE0E5] bg-white px-4 py-2.5 text-[14px] text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/70 focus:border-[#0F766E]"
                           placeholder="ระบุจำนวน"
                         />
                       </div>
@@ -534,7 +534,7 @@ export default function HeroSection() {
                         </label>
                         <input
                           type="number"
-                          className="w-full rounded-xl border border-[#DDE0E5] bg-white px-4 py-2.5 text-[14px] text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/70 focus:border-[#F26522]"
+                          className="w-full rounded-xl border border-[#DDE0E5] bg-white px-4 py-2.5 text-[14px] text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/70 focus:border-[#0F766E]"
                           placeholder="ระบุจำนวน"
                         />
                       </div>
@@ -542,7 +542,7 @@ export default function HeroSection() {
 
                     {/* Rate display */}
                     <div className="mt-5 text-center">
-                      <div className="text-[14px] font-semibold text-[#F26522]">
+                      <div className="text-[14px] font-semibold text-[#0F766E]">
                         อัตราการแลกเปลี่ยน
                       </div>
                       <div className="mt-1 text-[15px] font-bold text-surface-700">

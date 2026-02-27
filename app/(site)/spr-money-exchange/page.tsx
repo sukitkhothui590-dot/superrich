@@ -37,7 +37,7 @@ export default function SprMoneyExchangePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative z-0 bg-gradient-to-br from-[#F58A2A] to-[#F26522]">
+      <section className="relative z-0 bg-gradient-to-br from-[#0F766E] to-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-10">
           <div className="relative w-full" style={{ aspectRatio: "1440/560" }}>
             <div className="absolute inset-0 flex items-center justify-center">
@@ -65,7 +65,7 @@ export default function SprMoneyExchangePage() {
         {/* Overlapping info card */}
         <div className="pointer-events-none absolute inset-x-0 bottom-0 translate-y-1/2 z-10 flex justify-center px-4">
           <div className="pointer-events-auto w-full max-w-2xl rounded-2xl bg-white shadow-[0_16px_40px_rgba(15,23,42,0.16)] px-6 sm:px-8 py-6 sm:py-8">
-            <h2 className="text-xl sm:text-2xl font-bold text-[#F26522]">
+            <h2 className="text-xl sm:text-2xl font-bold text-[#0F766E]">
               SPR Money Exchange
             </h2>
             <p className="mt-1 text-sm text-surface-500">
@@ -101,8 +101,8 @@ export default function SprMoneyExchangePage() {
                 </div>
                 {/* Step info */}
                 <div className="mt-4">
-                  <p className="flex items-center gap-2 text-[#F26522] font-bold text-sm">
-                    <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-[#F26522] text-white text-[10px] font-bold">
+                  <p className="flex items-center gap-2 text-[#0F766E] font-bold text-sm">
+                    <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-[#0F766E] text-white text-[10px] font-bold">
                       ✓
                     </span>
                     Step {s.step}
@@ -124,7 +124,7 @@ export default function SprMoneyExchangePage() {
       <section className="relative z-0 overflow-hidden">
         <div className="relative w-full" style={{ aspectRatio: "1440/400" }}>
           {/* Background gradient */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#F58A2A]/90 to-[#F26522]/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0F766E]/90 to-[#0F766E]/80" />
           <div className="absolute inset-0 flex items-center justify-center">
             <span className="text-white/15 font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wider">
               1440×400
@@ -146,7 +146,7 @@ export default function SprMoneyExchangePage() {
                 </p>
                 <a
                   href="/exchange-rate"
-                  className="mt-4 inline-flex items-center gap-2 rounded-lg border-2 border-white text-white text-sm font-semibold px-5 py-2.5 hover:bg-white hover:text-[#F26522] transition-colors"
+                  className="mt-4 inline-flex items-center gap-2 rounded-lg border-2 border-white text-white text-sm font-semibold px-5 py-2.5 hover:bg-white hover:text-[#0F766E] transition-colors"
                 >
                   ดูอัตราแลกเปลี่ยน
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

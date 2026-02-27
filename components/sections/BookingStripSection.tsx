@@ -4,7 +4,7 @@ import React from "react";
 
 export default function BookingStripSection() {
   return (
-    <section className="bg-gradient-to-r from-[#F58A2A] to-[#F26522]">
+    <section className="bg-gradient-to-r from-[#0F766E] to-[#0F766E]">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         <div className="relative min-h-[185px]">
           {/* Centered placeholder text for background image size */}
@@ -24,7 +24,7 @@ export default function BookingStripSection() {
             <div className="hidden md:flex items-center">
               <button
                 type="button"
-                className="px-6 py-2 rounded-lg bg-white text-[#F26522] text-sm font-semibold hover:bg-white/90 transition-colors"
+                className="px-6 py-2 rounded-lg bg-white text-[#0F766E] text-sm font-semibold hover:bg-white/90 transition-colors"
               >
                 จองเลย
               </button>

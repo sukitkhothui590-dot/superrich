@@ -6,7 +6,7 @@ function SocialIcon({ children }: { children: React.ReactNode }) {
   return (
     <a
       href="#"
-      className="w-8 h-8 rounded-full bg-[#F26522] text-white flex items-center justify-center hover:bg-[#D9551A] transition-colors"
+      className="w-8 h-8 rounded-full bg-[#0F766E] text-white flex items-center justify-center hover:bg-[#0B5A53] transition-colors"
     >
       {children}
     </a>
@@ -36,7 +36,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative z-0 bg-gradient-to-br from-[#F58A2A] to-[#F26522]">
+      <section className="relative z-0 bg-gradient-to-br from-[#0F766E] to-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-10">
           <div className="relative w-full" style={{ aspectRatio: "1440/185" }}>
             {/* Background size placeholder */}
@@ -66,7 +66,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             {/* Left: Branch info + map */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-[#F26522]">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0F766E]">
                 สาขาสีลม (สำนักงานใหญ่)
               </h2>
               <p className="mt-2 text-sm sm:text-base text-surface-600">
@@ -95,7 +95,7 @@ export default function ContactPage() {
               {/* Phone & Google Map */}
               <div className="mt-6 flex flex-col sm:flex-row sm:items-start gap-6">
                 <div>
-                  <div className="flex items-center gap-2 text-[#F26522]">
+                  <div className="flex items-center gap-2 text-[#0F766E]">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                     <span className="font-bold text-lg">02-057-8888</span>
                   </div>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                     href="https://maps.google.com/?q=13.7293,100.5413"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-[#F26522] hover:underline"
+                    className="flex items-center gap-2 text-[#0F766E] hover:underline"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                     <span className="font-bold text-base">Google Map</span>
@@ -154,7 +154,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       placeholder="ชื่อ - นามสกุล"
                       required
-                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/30 focus:border-[#F26522] transition-colors"
+                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/30 focus:border-[#0F766E] transition-colors"
                     />
                   </div>
                   <div>
@@ -168,7 +168,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       placeholder="Email"
                       required
-                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/30 focus:border-[#F26522] transition-colors"
+                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/30 focus:border-[#0F766E] transition-colors"
                     />
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export default function ContactPage() {
                       value={form.phone}
                       onChange={handleChange}
                       placeholder="หมายเลขโทรศัพท์"
-                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/30 focus:border-[#F26522] transition-colors"
+                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/30 focus:border-[#0F766E] transition-colors"
                     />
                   </div>
                   <div>
@@ -198,7 +198,7 @@ export default function ContactPage() {
                       value={form.company}
                       onChange={handleChange}
                       placeholder="บริษัท"
-                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/30 focus:border-[#F26522] transition-colors"
+                      className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/30 focus:border-[#0F766E] transition-colors"
                     />
                   </div>
                 </div>
@@ -214,14 +214,14 @@ export default function ContactPage() {
                     onChange={handleChange}
                     placeholder="ส่งข้อความ หรือปัญหาของคุณ เราจะรีบดำเนินการติดต่อกลับ"
                     rows={6}
-                    className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#F26522]/30 focus:border-[#F26522] transition-colors resize-none"
+                    className="w-full rounded-lg border border-[#E5E7EB] px-4 py-2.5 text-sm text-surface-700 placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-[#0F766E]/30 focus:border-[#0F766E] transition-colors resize-none"
                   />
                 </div>
 
                 {/* Submit */}
                 <button
                   type="submit"
-                  className="w-full rounded-lg bg-[#F26522] text-white font-semibold py-3 text-base hover:bg-[#D9551A] transition-colors"
+                  className="w-full rounded-lg bg-[#0F766E] text-white font-semibold py-3 text-base hover:bg-[#0B5A53] transition-colors"
                 >
                   ส่งข้อความ
                 </button>

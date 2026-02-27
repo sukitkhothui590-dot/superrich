@@ -59,12 +59,12 @@ export default function BranchNearbySection() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Header */}
         <div className="flex items-end justify-between mb-8 lg:mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#F26522]">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#0F766E]">
             สาขาใกล้คุณ
           </h2>
           <Link
             href="/branches"
-            className="text-sm font-medium text-surface-600 hover:text-[#F26522] transition-colors"
+            className="text-sm font-medium text-surface-600 hover:text-[#0F766E] transition-colors"
           >
             ดูเพิ่มเติม &gt;
           </Link>
@@ -92,10 +92,10 @@ export default function BranchNearbySection() {
               <button
                 type="button"
                 onClick={() => setOpen((v) => !v)}
-                className="w-full flex items-center justify-between rounded-xl border border-[#EFF0F2] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#F26522] transition-colors"
+                className="w-full flex items-center justify-between rounded-xl border border-[#EFF0F2] bg-white px-4 py-3 text-[14px] cursor-pointer hover:border-[#0F766E] transition-colors"
               >
                 <span className="text-surface-500">เลือกสาขาที่ท่านต้องการ</span>
-                <ChevronDown className={`w-4 h-4 text-[#F26522] transition-transform duration-200 ${open ? "rotate-180" : ""}`} />
+                <ChevronDown className={`w-4 h-4 text-[#0F766E] transition-transform duration-200 ${open ? "rotate-180" : ""}`} />
               </button>
               {open && (
                 <div className="absolute z-20 mt-1 w-full rounded-xl border border-[#EFF0F2] bg-white shadow-lg overflow-hidden">
@@ -105,7 +105,7 @@ export default function BranchNearbySection() {
                       type="button"
                       className={[
                         "w-full text-left px-4 py-3 text-[14px] hover:bg-[#FFF7F2] cursor-pointer transition-colors",
-                        selected.id === branch.id ? "text-[#F26522] font-semibold bg-[#FFF7F2]" : "text-surface-700",
+                        selected.id === branch.id ? "text-[#0F766E] font-semibold bg-[#FFF7F2]" : "text-surface-700",
                       ].join(" ")}
                       onClick={() => {
                         setSelected(branch);
@@ -127,23 +127,23 @@ export default function BranchNearbySection() {
 
               <div className="space-y-3 text-[14px]">
                 <div>
-                  <span className="font-semibold text-[#F26522]">ที่อยู่</span>
+                  <span className="font-semibold text-[#0F766E]">ที่อยู่</span>
                   <p className="mt-0.5 text-surface-600 leading-relaxed">{selected.address}</p>
                 </div>
                 <div>
-                  <span className="font-semibold text-[#F26522]">เวลาทำการ</span>
+                  <span className="font-semibold text-[#0F766E]">เวลาทำการ</span>
                   <p className="mt-0.5 text-surface-600">{selected.hours}</p>
                 </div>
                 <div>
-                  <span className="font-semibold text-[#F26522]">สถานะ</span>
+                  <span className="font-semibold text-[#0F766E]">สถานะ</span>
                   <p className="mt-0.5 text-surface-600">{selected.status}</p>
                 </div>
                 <div>
-                  <span className="font-semibold text-[#F26522]">จุดสังเกต</span>
+                  <span className="font-semibold text-[#0F766E]">จุดสังเกต</span>
                   <p className="mt-0.5 text-surface-600 leading-relaxed">{selected.note}</p>
                 </div>
                 <div>
-                  <span className="font-semibold text-[#F26522]">ช่องทางการติดต่อ</span>
+                  <span className="font-semibold text-[#0F766E]">ช่องทางการติดต่อ</span>
                   <p className="mt-0.5 text-surface-600">{selected.contact}</p>
                 </div>
               </div>
@@ -152,13 +152,13 @@ export default function BranchNearbySection() {
               <div className="mt-6 space-y-3">
                 <button
                   type="button"
-                  className="w-full py-3 rounded-xl bg-[#F26522] text-white text-sm font-semibold hover:bg-[#D9551A] transition-colors"
+                  className="w-full py-3 rounded-xl bg-[#0F766E] text-white text-sm font-semibold hover:bg-[#0B5A53] transition-colors"
                 >
                   ติดต่อผ่าน LINE
                 </button>
                 <button
                   type="button"
-                  className="w-full py-3 rounded-xl border border-[#F26522] text-[#F26522] text-sm font-semibold bg-white hover:bg-[#FFF7F2] transition-colors"
+                  className="w-full py-3 rounded-xl border border-[#0F766E] text-[#0F766E] text-sm font-semibold bg-white hover:bg-[#FFF7F2] transition-colors"
                 >
                   เปิดแผนที่
                 </button>

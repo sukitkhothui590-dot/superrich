@@ -32,7 +32,7 @@ function SocialIcon({ children, href = "#", label }: { children: React.ReactNode
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="w-9 h-9 rounded-lg border border-white/40 bg-[#F26522] flex items-center justify-center text-white hover:bg-[#D9551A] transition-colors"
+      className="w-9 h-9 rounded-lg border border-white/40 bg-[#0F766E] flex items-center justify-center text-white hover:bg-[#0B5A53] transition-colors"
     >
       {children}
     </a>
@@ -49,7 +49,7 @@ export default function Footer() {
             {/* Logo + Address + App */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
-                <div className="w-10 h-10 rounded-full bg-[#F26522] flex items-center justify-center shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[#0F766E] flex items-center justify-center shrink-0">
                   <span className="text-white font-black text-sm">SPR</span>
                 </div>
                 <div>
@@ -69,7 +69,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {sitemapLinks.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#F26522] transition-colors">
+                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#0F766E] transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -83,7 +83,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {exchangeLinks.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#F26522] transition-colors">
+                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#0F766E] transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -97,7 +97,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {serviceLinks.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#F26522] transition-colors">
+                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#0F766E] transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -111,7 +111,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {contactLinks.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#F26522] transition-colors">
+                    <Link href={link.href} className="text-sm text-surface-700/80 hover:text-[#0F766E] transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -123,7 +123,7 @@ export default function Footer() {
       </div>
 
       {/* Lower bar - orange */}
-      <div className="bg-[#F26522]">
+      <div className="bg-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-white text-center md:text-left">

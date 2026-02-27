@@ -35,7 +35,7 @@ export default function ExchangeRatePage() {
   return (
     <>
       {/* Hero banner */}
-      <section className="relative z-0 bg-gradient-to-br from-[#F58A2A] to-[#F26522]">
+      <section className="relative z-0 bg-gradient-to-br from-[#0F766E] to-[#0F766E]">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-10">
           <div className="relative w-full" style={{ aspectRatio: "1440/560" }}>
             <div className="absolute inset-0 flex items-center justify-center">
@@ -85,7 +85,7 @@ export default function ExchangeRatePage() {
               <h2 className="mt-1 text-base md:text-lg font-semibold text-surface-600">
                 เรทถูกราคาดี แลกเงินไว้ใจเรา
               </h2>
-              <h2 className="text-4xl lg:text-5xl font-bold text-[#F26522] leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold text-[#0F766E] leading-tight">
                 ตารางเรทค่าเงิน
               </h2>
               <p className="mt-1 text-sm md:text-base text-surface-600">
@@ -97,7 +97,7 @@ export default function ExchangeRatePage() {
           {/* Table card */}
           <div className="overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_rgba(15,23,42,0.16)]">
             {/* Orange header */}
-            <div className="grid grid-cols-[2fr_1fr_1fr_1fr_100px] gap-x-2 px-6 py-3.5 bg-[#F26522] text-white text-sm font-semibold">
+            <div className="grid grid-cols-[2fr_1fr_1fr_1fr_100px] gap-x-2 px-6 py-3.5 bg-[#0F766E] text-white text-sm font-semibold">
               <div>ชื่อสกุลเงิน</div>
               <div className="text-right">ธนบัตร</div>
               <div className="text-right">
@@ -156,12 +156,12 @@ export default function ExchangeRatePage() {
                           </div>
 
                           {/* Buy */}
-                          <div className="text-right font-semibold text-[#F26522] tabular-nums text-sm">
+                          <div className="text-right font-semibold text-[#0F766E] tabular-nums text-sm">
                             {fmtRate(d.buy)}
                           </div>
 
                           {/* Sell */}
-                          <div className="text-right font-semibold text-[#F26522] tabular-nums text-sm">
+                          <div className="text-right font-semibold text-[#0F766E] tabular-nums text-sm">
                             {fmtRate(d.sell)}
                           </div>
 
@@ -170,7 +170,7 @@ export default function ExchangeRatePage() {
                             {isFirst ? (
                               <button
                                 type="button"
-                                className="inline-flex items-center gap-1 rounded-lg bg-[#F26522] text-white text-xs font-semibold px-3.5 py-1.5 hover:bg-[#D9551A] transition-colors"
+                                className="inline-flex items-center gap-1 rounded-lg bg-[#0F766E] text-white text-xs font-semibold px-3.5 py-1.5 hover:bg-[#0B5A53] transition-colors"
                               >
                                 คำนวณ
                                 <svg
@@ -201,7 +201,7 @@ export default function ExchangeRatePage() {
           </div>
 
           {/* หมายเหตุ card */}
-          <div className="mt-8 rounded-xl border border-[#E5E7EB] border-t-[3px] border-t-[#F26522] bg-white px-6 py-5">
+          <div className="mt-8 rounded-xl border border-[#E5E7EB] border-t-[3px] border-t-[#0F766E] bg-white px-6 py-5">
             <h3 className="text-sm font-bold text-surface-800 mb-3">หมายเหตุ</h3>
             <ol className="list-decimal list-inside space-y-1.5 text-xs sm:text-sm text-surface-600 leading-relaxed">
               <li>

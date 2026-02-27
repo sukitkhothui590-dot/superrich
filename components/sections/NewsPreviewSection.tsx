@@ -33,7 +33,7 @@ function NewsSkeleton() {
 
 function CategoryBadge({ category }: { category: string }) {
   return (
-    <span className="inline-block text-[11px] font-bold px-2.5 py-0.5 rounded-md bg-[#F26522] text-white">
+    <span className="inline-block text-[11px] font-bold px-2.5 py-0.5 rounded-md bg-[#0F766E] text-white">
       {category}
     </span>
   );
@@ -60,12 +60,12 @@ export default function NewsPreviewSection() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Header */}
         <div className="flex items-end justify-between mb-8 lg:mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#F26522]">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#0F766E]">
             ข่าวสาร
           </h2>
           <Link
             href="/news"
-            className="text-sm font-medium text-surface-600 hover:text-[#F26522] transition-colors"
+            className="text-sm font-medium text-surface-600 hover:text-[#0F766E] transition-colors"
           >
             ดูเพิ่มเติม &gt;
           </Link>
@@ -92,7 +92,7 @@ export default function NewsPreviewSection() {
                         {featured.date}
                       </span>
                     </div>
-                    <h3 className="text-lg font-bold text-[#F26522] leading-snug line-clamp-2">
+                    <h3 className="text-lg font-bold text-[#0F766E] leading-snug line-clamp-2">
                       {featured.title}
                     </h3>
                     <p className="mt-2 text-sm text-surface-500 leading-relaxed line-clamp-3">
@@ -124,7 +124,7 @@ export default function NewsPreviewSection() {
                         {item.date}
                       </span>
                     </div>
-                    <h3 className="text-sm sm:text-base font-bold text-[#F26522] leading-snug line-clamp-2">
+                    <h3 className="text-sm sm:text-base font-bold text-[#0F766E] leading-snug line-clamp-2">
                       {item.title}
                     </h3>
                     <p className="mt-1 text-xs sm:text-sm text-surface-500 leading-relaxed line-clamp-2">
